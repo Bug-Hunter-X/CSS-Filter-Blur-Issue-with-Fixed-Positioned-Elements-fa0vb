@@ -1,0 +1,15 @@
+/* bugSolution.css */
+.container {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  filter: blur(10px);
+}
+
+.inner {
+  position: relative; /* Important: keeps element correctly positioned inside the container */
+  width: 100%;
+  height: 100%;
+  background-color: lightgreen;
+} 
