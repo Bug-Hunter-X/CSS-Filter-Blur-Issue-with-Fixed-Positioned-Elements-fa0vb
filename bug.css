@@ -1,0 +1,1 @@
+The CSS property `filter: blur()` is applied to an element with `position: fixed;`.  The blur effect may not be visible or appear incorrectly, especially near the edges of the viewport, because the blur radius extends beyond the element's boundaries and into the fixed positioning context.  This can cause unexpected behavior or visual glitches.
